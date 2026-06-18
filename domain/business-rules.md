@@ -1,6 +1,14 @@
-# Business Rules — Rent A Car System
+# Business Rules — Anar Rent A Car System
 
 These rules are enforced by the backend. Frontend must reflect them in validation UX but the backend is the authority.
+
+**Company:** Anar Rent A Car  
+**Address:** ARTUKLU APARTMANI, 13 Mart, MEHMET REMZİ YERSEL CADDESİ NO:5 D:6, 47100 Artuklu/Mardin  
+**Phone:** 0544 289 60 55  
+**Email:** info@anarrentacar.com  
+**Language:** Turkish (tr-TR)  
+**Currency:** TRY (Turkish Lira)  
+**Primary Location:** Mardin, Turkey
 
 ---
 
@@ -87,3 +95,5 @@ These rules are enforced by the backend. Frontend must reflect them in validatio
 | SR-04 | The vehicle listing URL is `/vehicles`. |
 | SR-05 | Vehicle detail URL pattern is `/vehicles/{slug}`. |
 | SR-06 | Pages must return HTTP 200 with full HTML content (no JS-only render for critical content). |
+| SR-07 | Site tagline: "Güvenilir Kiralama Çözümleri" (Reliable Rental Solutions). |
+| SR-08 | Company contact: 0544 289 60 55 | info@anarrentacar.com |

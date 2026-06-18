@@ -1,6 +1,8 @@
-# Frontend Rules — Rent A Car System
+# Frontend Rules — Anar Rent A Car System
 
 These rules are mandatory for all frontend implementations. They cover SEO, accessibility, performance, and code conventions.
+
+**Company:** Anar Rent A Car | **Phone:** 0544 289 60 55 | **Primary Language:** Turkish (tr-TR)
 
 ---
 
@@ -8,7 +10,7 @@ These rules are mandatory for all frontend implementations. They cover SEO, acce
 
 Refer to `domain/business-rules.md` SR-01 to SR-06. Summary:
 
-1. Every public page must have a unique `<title>` tag (format: `{Page Title} | Rent A Car`).
+1. Every public page must have a unique `<title>` tag (format: `{Page Title} | Anar Rent A Car`).
 2. Every public page must have `<meta name="description">`.
 3. Vehicle detail pages must include Open Graph tags: `og:title`, `og:description`, `og:image`.
 4. Public pages must return full HTML in the initial HTTP response (SSR). Do not rely on client-side JS for indexable content.
@@ -70,6 +72,7 @@ Refer to `domain/business-rules.md` SR-01 to SR-06. Summary:
 
 ## WhatsApp CTA rules
 
-1. The WhatsApp number must come from the `WHATSAPP_NUMBER` environment variable — never hardcoded.
-2. The pre-filled message must include the vehicle name and a prompt.
-3. The CTA must open in a new tab (`target="_blank" rel="noopener"`).
+1. **WhatsApp Number:** 0544 289 60 55 (Anar Rent A Car)
+2. The WhatsApp number must come from the `WHATSAPP_NUMBER` environment variable — never hardcoded.
+3. The pre-filled message must include the vehicle name and a prompt: "Merhaba, {vehicle.name} araçla ilgili bilgi istiyorum." (Hello, I would like information about {vehicle.name})
+4. The CTA must open in a new tab (`target="_blank" rel="noopener"`).

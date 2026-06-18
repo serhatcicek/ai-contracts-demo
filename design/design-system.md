@@ -1,6 +1,21 @@
-# Design System — Rent A Car System
+# Design System — Anar Rent A Car
 
-All frontend implementations must use these design tokens. Changes to tokens must be reflected here before implementing in CSS/Tailwind config.
+All frontend implementations must use these design tokens for **Anar Rent A Car** branding.  
+Changes to tokens must be reflected here before implementing in CSS/Tailwind config.
+
+---
+
+## Anar Branding
+
+| Element | Value | Notes |
+|---|---|---|
+| **Company Name** | Anar Rent A Car | Professional, trustworthy |
+| **Logo** | SVG mark + text | Orange primary + dark text |
+| **Tagline** | Güvenilir Kiralama Çözümleri | "Reliable Rental Solutions" |
+| **Primary Font** | Inter | Modern, clean, professional |
+| **Language** | Turkish (tr-TR) | All content in Turkish |
+| **Phone** | 0544 289 60 55 | Visible in header & footer |
+| **Address** | Mardin, Turkey | Location-based branding |
 
 ---
 
@@ -8,11 +23,11 @@ All frontend implementations must use these design tokens. Changes to tokens mus
 
 | Token | Hex | Usage |
 |---|---|---|
-| `primary` | `#1E40AF` | Primary buttons, active states, links |
-| `primary-dark` | `#1E3A8A` | Button hover |
-| `primary-light` | `#DBEAFE` | Subtle backgrounds, badges |
-| `secondary` | `#0F766E` | Secondary actions, success states |
-| `accent` | `#F59E0B` | Highlights, price display, CTAs |
+| `primary` | `#FF6B35` | Anar orange - Primary buttons, active states, links (Sixt-inspired) |
+| `primary-dark` | `#E55A2B` | Anar orange dark - Button hover, emphasis |
+| `primary-light` | `#FFE8DC` | Anar orange light - Subtle backgrounds, badges |
+| `secondary` | `#1E293B` | Dark slate - Secondary actions, professional text |
+| `accent` | `#00C4B4` | Turquoise - Highlights, price display, CTAs (contrast) |
 | `danger` | `#DC2626` | Errors, destructive actions |
 | `warning` | `#D97706` | Warnings |
 | `success` | `#16A34A` | Success messages |

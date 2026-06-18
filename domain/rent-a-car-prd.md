@@ -1,14 +1,18 @@
-# Product Requirements Document — Rent A Car System
+# Product Requirements Document \u2014 Anar Rent A Car System
 
+**Company:** Anar Rent A Car  
+**Location:** Mardin, Turkey  
+**Phone:** 0544 289 60 55  
+**Email:** info@anarrentacar.com  
 **Version:** 1.0  
-**Status:** Draft  
-**Last updated:** 2026-06-18
+**Status:** Production  
+**Last updated:** 2026-06-18  
 
 ---
 
 ## 1. Purpose
 
-Build a web-based Rent A Car platform that allows customers to browse vehicles, make reservations or inquiry requests, and allows admins to manage the fleet, categories, and reservations.
+Build a professional, Turkish-language web platform for **Anar Rent A Car** that allows customers to browse vehicles, make reservations or inquiry requests, and allows admins to manage the fleet, categories, and reservations. The site will showcase a modern, professional design inspired by premium car rental brands like Sixt, with Turkish language interface and local business information.
 
 ---
 
